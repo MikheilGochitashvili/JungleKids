@@ -1,3 +1,3 @@
-document.querySelector('.logo').addEventListener('click', () => {
-    location.reload(true)
-})
+function refreshPage() {
+    location.reload()
+}
