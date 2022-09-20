@@ -74,13 +74,56 @@
 .sign-in-div
 {
     z-index: 1000;
-    height: 420px;
-    width: 370px;
+    height: 460px;
+    width: 400px;
     border-radius: 14px;
     background: rgb(255, 255, 255);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.e-mail-div
+{
+    margin-left: 29px;
+    margin-top: 18px;
+    width: 339px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.sign-span
+{
+    color: rgb(122, 122, 122);
+    font-size: 19px;
+}
+.e-mail-input
+{
+    padding: 12px;
+    border: none;
+    border: 2px solid rgb(212, 212, 212);
+    outline: 2px solid rgb(212, 212, 212);
+    border-radius: 6px;
+    transition: 350ms;
+    outline: 0;
+}
+.e-mail-input:hover
+{
+    border: 2px solid rgb(76, 76, 77);
+}
+.re-enter-div
+{
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+}
+.registration-span
+{
+    color: #222;
+    font-weight: 21px;
+    font-weight: 700;
 }
