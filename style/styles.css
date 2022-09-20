@@ -32,7 +32,7 @@
 {
     display: flex;
     align-items: center;
-    gap: 21px;
+    gap: 7px;
 }
 .log-text
 {
@@ -45,4 +45,20 @@
     border-radius: 6px;
     border: 1px solid rgb(212, 212, 212);
     transition: background 200ms, color 200ms;
+    transition: 360ms;
+    cursor: pointer;
 }
+.sign-in-container:hover
+{
+    border: 1px solid rgb(37, 37, 37);
+}
+.log-contaienr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 13px;
+    transition: 200ms;
+    border-radius: 6px;
+}
+
