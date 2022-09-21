@@ -25,11 +25,36 @@
             <div class="client-log-popup">
             </div>
             <div class="sign-in-div">
+                <!-- ---------sign-top----------------- -->
                <div class="sign-in-top">
                     <img src="/public/registration-img.png" class="sign-in-top-img">
                     <div class="sign-in-close">
-                        
                     </div>
+               </div>
+               <!-- -----------sign-main-content------- -->
+               <div class="username-container">
+                <span class="sign-in-span">Username<span class="red-star">*</span></span>
+                <input type="text" placeholder="" id="username-input">
+               </div>
+               <div class="e-mail-container">
+                <span class="sign-in-span">E-Mail<span class="red-star">*</span></span>
+                <input type="text" id="e-mail-input">
+               </div>
+               <div class="password-container">
+                <span class="sign-in-span">Password<span class="red-star">*</span>
+                </span>
+                <input type="password" id="password-input" placeholder="Minimum 8 symbol, use: $ , & , ! , @ or *">
+               </div>
+               <div class="password-container re-enter">
+                <span class="sign-in-span">Re-enter Password<span class="red-star">*</span>
+                </span>
+                <input type="password" 
+                class="re-enter-password-input"
+                id="password-input" placeholder="Minimum 8 symbol, use: $ , & , ! , @ or *">
+               </div>
+               <div class="sign-in-btn-container">
+                <button class="sign-in-btn">Sign Up</button>
+               </div>
                </div>
             </div>
         </div>

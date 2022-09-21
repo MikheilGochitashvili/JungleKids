@@ -134,7 +134,90 @@
 {
     background: #5a0e01;
 }
+.username-container
+{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#username-input
+{
+    padding: 7px 0px 7px 10px;
+    border: none;
+    outline: 2px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    transition: 240ms;
+}
+#username-input:hover
+{
+    outline: 2px solid #5a5a5a;
+}
+.e-mail-container
+{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 
-
-
-
+#e-mail-input
+{
+    padding: 7px 0px 7px 10px;
+    border: none;
+    outline: 2px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    transition: 240ms;
+}
+#e-mail-input:hover
+{
+    outline: 2px solid #5a5a5a;
+}
+.red-star
+{
+    color: red;
+}
+.sign-in-span
+{
+    color: #6d6d6d;
+    font-weight: 400;
+}
+.password-container
+{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#password-input
+{
+    padding: 7px 0px 7px 10px;
+    border: none;
+    outline: 2px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    transition: 240ms; 
+}
+#password-input:hover
+{
+    outline: 2px solid #5a5a5a;
+}
+.sign-in-btn-container
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.sign-in-btn
+{
+    padding: 6.5px 17px;
+    border: none;
+    border-radius: 6px;
+    background: #5364f8;
+    color: white;
+    transition: background 400ms;
+    cursor: pointer;
+}
+.sign-in-btn:hover
+{
+    background: #2c3379;
+}
