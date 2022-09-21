@@ -4,3 +4,26 @@
         padding: 0px 100px;
     }
 }
+@media only screen and (max-width: 375px) {
+    .header
+    {
+        padding: 0px 20px;
+    }
+    .logo
+    {
+        width: 120px;
+    }
+    .sign-in-div
+    {
+        height: 413px;
+        width: 342px;
+    }
+    .sign-in-container
+    {
+        padding: 3px 8px;
+    }
+    .log-text
+    {
+        font-size: 12px;
+    }
+}

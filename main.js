@@ -14,4 +14,9 @@ signIn.addEventListener('click', () => {
         signInDiv.style.display = 'none'
     })
 })
-
+// sign in closer
+const signCloser = document.querySelector('.sign-in-close')
+signCloser.addEventListener('click', () => {
+    signInDiv.style.display = 'none'
+    signPop.style.display = 'none'
+})
